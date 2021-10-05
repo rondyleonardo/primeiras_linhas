@@ -1,0 +1,40 @@
+using System;
+
+namespace DIO
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+        string aluno1, aluno2, aluno3, nota1, nota2, nota3;
+
+        int media;
+
+                Console.WriteLine("Digite o nome do aluno: ");             
+                aluno1 = Console.ReadLine();
+                Console.WriteLine("Digite a nota do aluno: ");             
+                nota1 = Console.ReadLine();
+                Console.WriteLine("Digite o nome do aluno: ");             
+                aluno2 = Console.ReadLine();
+                Console.WriteLine("Digite a nota do aluno: ");             
+                nota2 = Console.ReadLine();
+                Console.WriteLine("Digite o nome do aluno: ");             
+                aluno3 = Console.ReadLine();
+                Console.WriteLine("Digite a nota do aluno: ");             
+                nota3 = Console.ReadLine();
+                //Console.WriteLine(texto);
+    
+        int n1 = int.Parse(nota1);    
+        int n2 = int.Parse(nota2);
+        int n3 = int.Parse(nota3);        
+        
+        media = (n1 + n2+ n3) / 3;
+        Console.WriteLine("A média das notas dos alunos " +aluno1+ "," + aluno2 + " e "+aluno3+ " é: "+ media + " !");
+
+
+
+        }
+
+    }
+}
